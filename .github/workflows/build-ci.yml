@@ -42,4 +42,4 @@ jobs:
         with:
           name: esp3d-firmware
           path: |
-            **/*.bin
+            .pio/build/**/firmware.bin
